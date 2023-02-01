@@ -6,7 +6,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | -------------  | --- |
 | :sparkles: Nome        | **Linkway**
 | :label: Tecnologias | javascript, html
-| :rocket: URL         | https://joaorobertofg.github.io/Linkway/
+| :rocket: URL         | https://joaorobertofg.github.io/LinkWay/
 
 ## Detalhes do projeto
 
