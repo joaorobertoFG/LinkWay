@@ -1,6 +1,6 @@
 function preload(){
   font = loadFont ('ReturnofGanon.ttf')
-  cenario = loadImage('cenario/estrada-1.png')
+  cenario = loadImage('cenario/estrada.jpg')
   ator = loadImage('ator/ator-cima.png')
   atorMovimenta = [loadImage('ator/ator-cima.png'), loadImage('ator/ator-baixo.png'), loadImage('ator/ator-direita.png'), loadImage('ator/ator-esquerda.png')];
   carro1 = loadImage('carros/carro-1.png')

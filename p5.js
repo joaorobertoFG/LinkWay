@@ -51895,19 +51895,7 @@
             this.ingredients.shapes[f] = [
               include
             ]; //if other shapes of this type have been created
-          } else if (this.ingredients.shapes[f] !== [include]) {
-            //for every shape of this type
-            for (var y in this.ingredients.shapes[f]) {
-              //compare it with current shape and if it already exists make add false
-              if (JSON.stringify(this.ingredients.shapes[f][y]) === JSON.stringify(include)) {
-                add = false;
-              }
-            } //add shape by pushing it to the end
-
-            if (add === true) {
-              this.ingredients.shapes[f].push(include);
-            }
-          }
+          } 
         }; //gets middle point / centroid of shape
         function _getMiddle(f, args) {
           var x,
