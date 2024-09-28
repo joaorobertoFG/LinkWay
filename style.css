@@ -8,7 +8,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-image: url(desktop-1920x1080.jpg);
+  background-color: black;
+  background-size: cover;
 }
 
 main{
