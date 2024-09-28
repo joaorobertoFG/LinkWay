@@ -8,7 +8,6 @@ let meusPontos = 0;
 
 function mostraAtor(){
     image(ator, xAtor, yAtor, comprimentoAtor, alturaAtor)
-  
 }
 
 //movimento

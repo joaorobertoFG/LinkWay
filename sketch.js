@@ -15,6 +15,10 @@ function draw(){
   pontos();
   marcaPonto();
   mostraHeart();
+  passaFase();
+  faseUm();
+  faseDois();
+  ganhaJogo();
 }
 
 function mostraHeart(){

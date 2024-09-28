@@ -1,6 +1,8 @@
 function preload(){
   font = loadFont ('ReturnofGanon.ttf')
   cenario = loadImage('cenario/estrada.jpg')
+  cenarioDois = loadImage('cenario/mapa.png')
+  fim = loadImage('cenario/fim.png')
   ator = loadImage('ator/ator-cima.png')
   atorMovimenta = [loadImage('ator/ator-cima.png'), loadImage('ator/ator-baixo.png'), loadImage('ator/ator-direita.png'), loadImage('ator/ator-esquerda.png')];
   carro1 = loadImage('carros/carro-1.png')
@@ -15,4 +17,5 @@ function preload(){
   tema = loadSound  ('sons/tema.mp3')
   ponto = loadSound ('sons/heart piece 1.wav')
   hit = loadSound   ('sons/link hurt.wav')
+  win = loadSound   ('sons/victory.mp3')
 }

@@ -39,3 +39,16 @@ function passouTela(xCarros, xCarros2){
   return xCarros2 > 600
 }
 
+function faseUm() {
+  if (meusPontos <= 10) {
+    velocidadeCarros = [2, 3, 2.5];
+    velocidadeCarros2 = [2, 3 , 2.5];
+  }
+}
+
+function faseDois() {
+  if (meusPontos >= 10) {
+    velocidadeCarros = [3, 4, 3];
+    velocidadeCarros2 = [3, 4.5 , 2.5];
+  }
+}
